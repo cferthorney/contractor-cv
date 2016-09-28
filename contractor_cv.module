@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * contractor_cv.module
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function contractor_cv_theme($existing, $type, $theme, $path) {
+  return [
+    'job' => [
+      'render element' => 'content',
+    ],
+  ];
+}

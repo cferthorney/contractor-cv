@@ -1,0 +1,5 @@
+name: Contractor CV
+description: 'A module that allows contractors to better show and display their experience via an online CV/Resume.'
+type: Resume
+core: 8.x
+package: Content
